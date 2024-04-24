@@ -1,0 +1,162 @@
+body {
+    background-color: #fbfbfb;
+    }
+    @media (min-width: 991.98px) {
+    main {
+    padding-left: 240px;
+    }
+    }
+
+
+    
+    .navbar-brand img {
+        margin-left: 10px;
+    }
+
+    #main-navbar {
+        background-color: #004E98;
+    }
+
+    
+
+    .logo {
+        color: #744253;
+        font-size: 200px;
+    }
+
+    .logo-small {
+        color: antiquewhite;
+        font-size: 50px;
+
+    }
+
+    .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        background-image: none;
+        color: antiquewhite;
+        font-size: 50px;
+    }
+
+    .carousel-indicators li {
+        border-color: red;
+        bottom: 0;
+        
+
+    }
+
+    .carousel-indicators li.active {
+        background-color: red;
+    }
+
+    .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+    }
+
+    .item span {
+        font-style: normal;
+    }
+
+    #myCarousel {
+        padding: 40px;
+    }
+
+    .panel {
+        border: 1px solid antiquewhite;
+    }
+
+    .panel:hover {
+        box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    }
+    
+    .panel-footer .btn:hover {
+        border: 1px solid antiquewhite;
+        background-color: #fff !important;
+        color: black;
+    }
+
+    .panel-heading {
+        color: black !important;
+        background-color: antiquewhite !important;
+        padding: 25px;
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .panel-footer {
+        background-color: #fff !important;
+    }
+      
+    .panel-footer h3 {
+        font-size: 32px;
+    }
+      
+    .panel-footer h4 {
+        color: #aaa;
+        font-size: 14px;
+    }
+      
+    .panel-footer .btn {
+        margin: 15px 0;
+        background-color: antiquewhite;
+        color: black;
+    }
+   
+    
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    
+    }
+
+
+    
+    
+    @media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    
+    
+
+    }
+    
+    }
+
+    
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
